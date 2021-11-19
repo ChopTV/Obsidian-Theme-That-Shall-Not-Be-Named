@@ -2,7 +2,7 @@
     --background-primary: var(--green-deep); /* Background of Edit/Preview Windows, and Graph. */
     --background-primary-alt: var(--silver-deep); /* The divider between all windows, the title bar of the active note, background of the graph options, background of code blocks */
     --background-secondary: var(--purple-deep); /* Background of the Left and Right bars, the bottom bar, the title bar of non-selected notes, and the background of the settings */
-    --background-secondary-alt: #000000; /* The border around the side bars, highlight of selected file in the file explorer, Left bar of settings, the border around settings, and the background of off toggles */
+    --background-secondary-alt: var(--black); /* The border around the side bars, highlight of selected file in the file explorer, Left bar of settings, the border around settings, and the background of off toggles */
     --background-modifier-border: var(--brass-deep); /* The border around the graph options, decorative divider lines ---, borders of block quotes / tables, the line separating the bottom bar and the main windows, the default for the lines connecting nodes in graph view, the border around drop boxes, and the background color of sliders */
     --background-modifier-form-field: var(--black); /* The idle background for dropdown menus, the background for text fields */
     --background-modifier-form-field-highlighted: var(--green-deep); /* Background color on mouseover/hover on dropdown menus and text fields */
@@ -59,8 +59,8 @@
     --purple-base: #3B0050;
     --purple-bright: #66008B;
     --purple-light: #22002E;
-    --purple-dark: #22002E;
+    --purple-dark: #13011A;
     --purple-deep: #0B010E; /* #13011A; */
     --purple-compliment: #707700;
-    --black: ##000000;
+    --black: #000000;
   }
