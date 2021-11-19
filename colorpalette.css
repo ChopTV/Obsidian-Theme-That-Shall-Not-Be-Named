@@ -4,8 +4,8 @@
 --green-bright: #227E67;
 --green-light: #0F6751;
 --green-dark: #00372A;
---green-deep: #001E17;
---green-compliment: #7B2E00;
+--green-deep: #000E0B; /* Former color: #001E17 - was too light to be useful as a background color. Made darker. */
+--green-compliment: #7B2E00; /* Have been using this obnoxious color to test what UI Elements each variable effects */
 --brass-base: #575042;
 --brass-bright: #B7AD97;
 --brass-light: #8B806C;
@@ -21,7 +21,7 @@
 --purple-base: #3B0050;
 --purple-bright: #66008B;
 --purple-light: #22002E;
---purple-dark: #22002E;
---purple-deep: #000000;
+--purple-dark: #13011A; /* This used to be the "deep" color, but was too light to be used as a background. Changed to separate Light from Dark */
+--purple-deep: #0B010E; /* New Deep color, old color was not dark enough to make a good background. */
 --purple-compliment: #707700;
---black: ##000000;
+--black: #000000;
