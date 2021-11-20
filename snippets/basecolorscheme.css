@@ -16,23 +16,23 @@
     --text-accent-hover: var(--brass-base); /* Text color when you mouseover/hover links and tags */
     --text-normal: var(--silver-light); /* The default text color in the editor/preview, and the text color of the selected file in the File Explorer */
     --text-muted: var(-silver-dark); /* Text color for non-selected files in the File Explorer, text color for right panel, icon color for the top of each side panel, icon color for the stuff at the top of each window in the editor (class="tooltip"?), the default color for nodes in the graph view. */
-    --text-muted-rgb: 153, 153, 153;
-    --text-faint: #666;
-    --text-error: #ff3333;
-    --text-error-hover: #990000;
-    --text-highlight-bg: rgba(255, 255, 0, 0.4);
-    --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
-    --text-selection: rgba(23, 48, 77, 0.99);
-    --text-on-accent: #dcddde;
-    --interactive-normal: #2a2a2a;
-    --interactive-hover: #303030;
-    --interactive-accent: #483699;
-    --interactive-accent-rgb: 72, 54, 153;
-    --interactive-accent-hover: #4d3ca6;
-    --interactive-success: #197300;
-    --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
-    --scrollbar-bg: rgba(255, 255, 255, 0.05);
-    --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+    --text-muted-rgb: 153, 153, 153; /* Unknown */
+    --text-faint: #666; /* Text color for items checked off of a todo list */
+    --text-error: #ff3333; /* Error text color, as seen in Settings -> About -> Hardware Acceleration. Do not recommend changing. */
+    --text-error-hover: #990000; /* Unknown */
+    --text-highlight-bg: rgba(139, 128, 108, 0.4); /* Highlighted text background color. "Mark" == */
+    --text-highlight-bg-active: rgba(255, 128, 0, 0.4); /* Unknown */
+    --text-selection: rgba(63, 54, 36, 0.99); /* Background color when you select a bunch of text */
+    --text-on-accent: var(--silver-light); /* Text and icon color on the top/title bar. Text color on buttons in settings. */
+    --interactive-normal: var(--brass-base); /* The background color of the "copy" button in a code block */
+    --interactive-hover: var(--brass-dark); /* Background color when mousing over the "copy" button in a code block */
+    --interactive-accent: var(--green-dark); /* The background color for the notification pop-up when clicking the "copy" button on a code block. Background color for buttons in settings. Border color for selective/active drop down menus and text fields. Background of selected theme when managing themes. Color of bar underlining active window. */
+    --interactive-accent-rgb: 97, 97, 97; /* The color of the divider between windows when you mouse over them to resize them. */
+    --interactive-accent-hover: var(--green-deep); /* Background text when mousing over buttons in settings */
+    --interactive-success: #197300; /* Unknown */
+    --scrollbar-active-thumb-bg: rgba(238, 237, 237, 0.2); /* The color of the scroll bar position slider when you click on it to manipulate ity. */
+    --scrollbar-bg: rgba(238, 237, 237, 0.05); /* Background color of the entire scroll bar. Incredibly faint. */
+    --scrollbar-thumb-bg: rgba(238, 237, 237, 0.1); /* The color of the scroll bar position marker. */
     --highlight-mix-blend-mode: lighten;
 
     /* Color palette for Theme-That-Shall-Not-Be-Named */
@@ -41,26 +41,25 @@
     --green-bright: #227E67;
     --green-light: #0F6751;
     --green-dark: #00372A;
-    --green-deep: #000E0B;
-/*    --green-deep: #001E17; */
-    --green-compliment: #7B2E00;
+    --green-deep: #000E0B; /* Formerly: #001E17 */
+    --green-compliment: #7B2E00; /* rgb(123, 46, 0) */
     --brass-base: #575042;
     --brass-bright: #B7AD97;
-    --brass-light: #8B806C;
-    --brass-dark: #3F3624;
+    --brass-light: #8B806C; /* rgb(139, 128, 108) */
+    --brass-dark: #3F3624; /* rgb(63, 54, 36) */
     --brass-deep: #392D15;
     --brass-compliment: #4B505D;
     --silver-base: #909090;
-    --silver-bright: #EEEDED;
+    --silver-bright: #EEEDED; /* RGB(238, 237, 237) */
     --silver-light: #BBBBBB;
-    --silver-dark: #616161;
+    --silver-dark: #616161; /* rgb(97, 97, 97) */
     --silver-deep: #252525;
     --silver-compliment: #737373;
     --purple-base: #3B0050;
     --purple-bright: #66008B;
-    --purple-light: #22002E;
-    --purple-dark: #13011A;
-    --purple-deep: #0B010E; /* #13011A; */
+    --purple-light: #51006D;
+    --purple-dark: #22002E;
+    --purple-deep: #0B010E; /* Formerly: #13011A; */
     --purple-compliment: #707700;
     --black: #000000;
   }
