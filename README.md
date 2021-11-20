@@ -11,6 +11,6 @@ There are currently three functioning snippets that provide the groundwork for t
 3. fonts.css - Establishes fonts to be used by headings.css and further snippets. Also borrows from the naming convention established by @nickmilo - currently set to default to Lucida Console, but can easily be changed to anything you want or completely turned off to revert to system defaults.
 
 Current Status:
-![Theme](../Theme-That-Shall-Not-Be-Named.png)
+![Theme](/Theme-That-Shall-Not-Be-Named.png)
 
 This is a work in progress.
