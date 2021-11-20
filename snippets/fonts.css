@@ -1,0 +1,12 @@
+/* Establish variable names for fonts */
+
+.theme-dark {
+  --font-family-editor: Lucida Console;
+  --font-family-preview: Lucida Console;
+}
+
+/* Old way of setting the font to everything. */
+/* body {
+  font-family: "Lucida Console";
+  font-size: 14px;
+} */
