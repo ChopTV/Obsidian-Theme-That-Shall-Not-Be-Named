@@ -1,4 +1,5 @@
 # Theme-That-Shall-Not-Be-Named
+**Current Version 0.1**
 
 A theme for Obsidian.md inspired by the color palette used by Matheus Zarkov in his theme "Slytherin."
 
