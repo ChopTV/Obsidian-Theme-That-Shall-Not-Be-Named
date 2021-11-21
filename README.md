@@ -1,7 +1,7 @@
 # Theme-That-Shall-Not-Be-Named
-**Current Version 0.1**
+**Current Version 0.1.0**
 
-A theme for Obsidian.md inspired by the color palette used by Matheus Zarkov in his theme "Slytherin."
+A theme for Obsidian.md inspired by the color palette used by Matheus Zarkov in his theme "Slytherin." It pulls from the colors for House Slytherin, Nagini, and some other Harry Potter related things.
 
 Original Theme that inspired this can be found on github at [Obsidian-Slytherin by Matheus Zarkov](https://github.com/MatheusZarkov/Obsidian-Slytherin)
 
