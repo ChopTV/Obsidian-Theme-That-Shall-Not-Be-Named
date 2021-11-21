@@ -1,0 +1,49 @@
+/**********************/
+/*     Graph View     */
+/**********************/
+.graph-view.color-text {
+    color: var(--silver-base);
+}
+
+.theme-dark .graph-view.color-fill-tag {
+  color: var(--green-light);
+}
+
+.theme-dark .graph-view.color-fill-unresolved {
+  color: var(--purple-base);
+  Opacity:1;
+}
+
+/* Unused Known Settings - They default to a good color of the base color scheme. If there comes a need to explicitly name them, they are here.
+
+.theme-dark .graph-view.color-fill-attachment {
+  color: var(--purple-bright);
+}
+
+.theme-dark .graph-view.color-arrow {
+  color: var(--silver-bright);
+}
+
+.graph-view.color-fill {
+    color: var(--brass-base);
+}
+
+.graph-view.color-circle {
+    color: var(--silver-light);
+}
+
+.graph-view.color-line {
+    color:  var(--brass-deep);
+}
+
+.graph-view.color-text {
+    color: var(--silver-base);
+}
+
+.graph-view.color-fill-highlight {
+    color: var(--green-base);
+}
+.graph-view.color-line-highlight {
+    color: var(--green-base);
+}
+*/
