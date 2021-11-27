@@ -15,4 +15,4 @@ There are currently four functioning snippets that provide the groundwork for th
 Current Status:
 ![Theme](/Theme-That-Shall-Not-Be-Named.png)
 
-This is a work in progress. If you have any recommendations, requests for features, or find any issues, please let me know. I don't use a whole lot of plug-ins, so I can't promise this will work 100% with all plugins. I will be happy to try and add support for different plugins as I learn which ones need a little TLC.
+This is a work in progress. If you have any recommendations for improvements, requests for features, or find any bugs, please submit them as an issue. I don't use a whole lot of plug-ins, so I can't promise this will work 100% with all plugins. I will be happy to try and add support for different plugins as I learn which ones need a little TLC.
