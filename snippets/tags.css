@@ -1,0 +1,47 @@
+/* tags.css */
+
+/* Tag pills in Preview mode */
+.tag:not(.token) {
+  border: none;
+  color: var(--silver-light);
+  font-size: 12px;
+  padding: 1px 8px 3px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--brass-base)
+}
+
+/* These don't currently appear to do anything. */
+
+/* Tag pills in tag pane
+.tag-pane-tag-count {
+  background-color: var(--brass-base);
+  border: none;
+  color: var(--silver-light);
+  font-size: 11px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tag-pane-tag-text {
+  background-color: var(--brass-base);
+  border: none;
+  color: var(--silver-light);
+  font-size: 11px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+*/
