@@ -1,7 +1,7 @@
 /***************************************************/
 /*      "Theme-That-Shall-Not-Be-Named" v0.1       */
 /*      by @choptv (twitter: @choptheviking)       */
-/*                    20211120                     */
+/*                    20211128                     */
 /* Inspired by "Slytherin" theme by Matheus Zarkov */
 /***************************************************/
 
@@ -130,8 +130,6 @@
   }
 
   /* Unused Known Settings - They default to a good color of the base color scheme. If there comes a need to explicitly name them, they are here.
-
-
 
   .theme-dark .graph-view.color-arrow {
     color: var(--silver-bright);
@@ -289,3 +287,147 @@
   .reveal h5 {
       color: var(--text-title-h5);
   }
+
+  /************************************************************/
+  /*              Checkbox as per Molecule theme              */
+  /*       Thanks to Dmitriy-Shulha's CSS Snippets Repo       */
+  /* https://github.com/Dmitriy-Shulha/obsidian-css-snippets/ */
+  /************************************************************/
+
+  /* Preview Mode */
+  .markdown-preview-view .task-list-item-checkbox {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    border: 1px solid var(--text-muted);
+    border-radius: 2px;
+    position: relative;
+    width: 1.3em;
+    height: 1.3em;
+    margin: 12px;
+    filter: none;
+    outline: none;
+    margin-right: 4px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    vertical-align: center;
+  }
+
+  /* Background color of the check box */
+  .markdown-preview-view .task-list-item-checkbox:checked {
+    border: none;
+    background-color: var(--brass-base);
+  }
+
+  /* Color of the check itself */
+  .markdown-preview-view .task-list-item-checkbox:checked::before {
+    content: ' ';
+    position: absolute;
+    background-color: var(--silver-bright);
+    left: 2px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    -webkit-mask-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 14 14\'%3E%3Cpolygon points=\'5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039\'%3E%3C/polygon%3E%3C/svg%3E');
+  }
+
+  /************************************************************************/
+  /*                            Blockquotes                               */
+  /* Remove the top and right borders, style the right and bottom borders */
+  /*     Borrowed from Obsidianite via Dmitriy Shulha's Snippet Repo      */
+  /************************************************************************/
+
+  /* Preview Mode */
+  .markdown-preview-view blockquote {
+    position: relative;
+    padding: 1rem 2rem 1rem 3rem;
+    line-height: 1.4em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-bottom: 2em;
+    border-left: 4px var(--background-modifier-border) solid;
+    border-bottom: 1px var(--background-modifier-border) solid;
+    border-top: transparent;
+    border-right: transparent;
+    display: inline-block;
+    margin-right: 0 !important;
+  }
+
+  /* Doesn't currently seem like any of this is necessary. */
+
+  /*
+  .markdown-preview-view blockquote::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 2px;
+    width: 60%;
+    background: linear-gradient(90deg, rgba(31, 178, 129, 0.9), var(--base3));
+  }
+
+  .markdown-preview-view blockquote::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 2px;
+    width: 25%;
+    background: linear-gradient(90deg, rgba(31, 178, 129, 0.9), var(--base3));
+  }
+
+  .markdown-preview-view blockquote p {
+    position: relative;
+  }
+  */
+
+/******************************/
+/*            Tags            */
+/******************************/
+
+  /* Tag pills in Preview mode */
+  .tag:not(.token) {
+    border: none;
+    color: var(--silver-light);
+    font-size: 12px;
+    padding: 1px 8px 3px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--brass-base)
+  }
+
+  /* These don't currently appear to do anything. */
+
+  /* Tag pills in tag pane
+  .tag-pane-tag-count {
+    background-color: var(--brass-base);
+    border: none;
+    color: var(--silver-light);
+    font-size: 11px;
+    padding: 1px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .tag-pane-tag-text {
+    background-color: var(--brass-base);
+    border: none;
+    color: var(--silver-light);
+    font-size: 11px;
+    padding: 1px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  */
