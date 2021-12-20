@@ -1,0 +1,15 @@
+/* Scrollbars */
+/* change width */
+::-webkit-scrollbar {
+  width:13px; /* Make scrollbar wider to better see the new shape */
+  border-radius: 4px; /* Rounding corners to match other rounding radii */
+}
+
+/* Rounding corners to match other rounding radii */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  -webkit-border-radius: 4px;
+}
