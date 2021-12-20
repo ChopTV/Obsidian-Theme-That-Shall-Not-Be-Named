@@ -102,6 +102,7 @@ em {
   color: var(--green-bright);
 }
 
+/* Background color of the Selection Highlight */
 .suggestion-item.is-selected {
   background-color: var(--brass-dark);
 }
