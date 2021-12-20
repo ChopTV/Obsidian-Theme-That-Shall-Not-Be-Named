@@ -10,7 +10,7 @@
 {
   font-family: var(--font-family-editor);
   font-weight: 500;
-  font-size: 28px;
+  font-size: 2em;
   font-weight: bold;
   color: var(--text-title-h1);
 }
@@ -19,7 +19,7 @@
 {
   font-family: var(--font-family-editor);
   font-weight: 500;
-  font-size: 26px;
+  font-size: 1.5em;
   font-weight: bold;
   color: var(--text-title-h2);
 }
@@ -28,7 +28,7 @@
 {
   font-family: var(--font-family-editor);
   font-weight: 500;
-  font-size: 23px;
+  font-size: 1.3em;
   font-weight: bold;
   color: var(--text-title-h3);
 }
@@ -37,7 +37,7 @@
 {
   font-family: var(--font-family-editor);
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1em;
   font-weight: bold;
   line-height: 30px;
   color: var(--text-title-h4);
@@ -47,7 +47,7 @@
 {
   font-family: var(--font-family-editor);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 0.8em;
   font-weight: bold;
   line-height: 30px;
   color: var(--text-title-h5);
@@ -59,7 +59,7 @@
 {
   font-family: var(--font-family-preview);
   font-weight: 500;
-  font-size: 26px;
+  font-size: 2em;
   font-weight: bold;
   line-height: 36px;
   margin-bottom: 15px;
@@ -70,7 +70,7 @@
 {
   font-family: var(--font-family-preview);
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
   line-height: 34px;
   color: var(--text-title-h2);
@@ -80,7 +80,7 @@
 {
   font-family: var(--font-family-preview);
   font-weight: 500;
-  font-size: 22px;
+  font-size: 1.3em;
   font-weight: bold;
   line-height: 32px;
   color: var(--text-title-h3);
@@ -90,7 +90,7 @@
 {
   font-family: var(--font-family-preview);
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1em;
   font-weight: bold;
   line-height: 28px;
   color: var(--text-title-h4);
@@ -100,7 +100,7 @@
 {
   font-family: var(--font-family-preview);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 0.8em;
   font-weight: bold;
   line-height: 27px;
   color: var(--text-title-h5);
