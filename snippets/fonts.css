@@ -5,6 +5,18 @@
   --font-family-preview: Lucida Console;
 }
 
+/* Font for the markdown source panel */
+div.markdown-source-view {
+    font-family: var(--font-family-editor);
+    font-size: 0.9em;
+}
+
+/* Font for the markdown preview panel */
+div.markdown-preview-view {
+    font-family: var(--font-family-preview);
+    font-size: 0.9em;
+}
+
 /* Old way of setting the font to everything. */
 /* body {
   font-family: "Lucida Console";
